@@ -198,3 +198,19 @@
     
   </body>
 </html>
+
+
+<!-- Host
+ec2-107-21-248-200.compute-1.amazonaws.com
+Database
+db61dmsgsesp28
+User
+zbsuwjahvkjknz
+Port
+5432
+Password
+4c2016d7dd03725d3a354815375fc6fd9849cf6959cae480b9b8f874436e6244
+URI
+postgres://zbsuwjahvkjknz:4c2016d7dd03725d3a354815375fc6fd9849cf6959cae480b9b8f874436e6244@ec2-107-21-248-200.compute-1.amazonaws.com:5432/db61dmsgsesp28
+Heroku CLI
+heroku pg:psql postgresql-horizontal-58040 --app analogue51 -->
