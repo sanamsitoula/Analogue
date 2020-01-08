@@ -91,16 +91,13 @@
             $servername = "localhost";
             $username = "root";
             $password = "";
-            $db ="analogue";
+            $db =  "analogue" ;
 
-         <!--    $servername = "localhost";
-            $username = "root";
-            $password = "";
-            $db ="analogue"; -->
+       
 
 
             // Create connection
-            $conn = new mysqli($servername, $username, $password);
+            $conn = new mysqli($servername, $username, $password,$db);
 
             // Check connection
             if ($conn->connect_error) {
